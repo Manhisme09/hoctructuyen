@@ -1,0 +1,276 @@
+.navbar-nav {
+  justify-content: flex-end;
+
+  .active-menu {
+    background-color: $greenHapo;
+    border-radius: 17px;
+
+    .nav-link {
+      color: white !important;
+    }
+  }
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  min-height: 54vh;
+}
+
+.navbar-nav {
+  .nav-item {
+    margin-right: 20px;
+
+    &:hover {
+      background: $greenHapo;
+      border-radius: 17px;
+    }
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #505353;
+      font-weight: 700;
+    }
+  }
+  .navbar-nav {
+    .nav-link:hover {
+      color: white;
+    }
+
+    .nav-link.hello:hover {
+      color: #505353;
+    }
+  }
+}
+
+.multi-lang {
+  margin-top: 5px;
+
+  .language {
+    border: none;
+    background-color: transparent;
+  }
+
+  .flag-icon {
+    .flag {
+      width: 30px;
+      height: 20px;
+    }
+    span {
+      color: #555;
+    }
+  }
+
+  .language-item {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 0 #e6e6e6;
+    padding-left: 0;
+    width: 125px;
+    top: 96px;
+    display: none;
+
+    .language-bar {
+      list-style: none;
+      padding: 10px 4px;
+      text-align: left;
+      color: #555;
+    }
+  }
+
+  .active {
+    display: block;
+  }
+}
+
+.multi-lang {
+  .language-bar {
+    .flag-icon {
+      text-decoration: none;
+      color: #555;
+    }
+  }
+}
+
+.multi-lang-another {
+  display: none;
+}
+
+@media (max-width: 1024px) and (min-width: 740px) {
+  .navbar-nav {
+    .nav-item {
+      border-bottom: 1px solid #f1f1f1;
+      &:hover {
+        background: #f8f9fa;
+        border-radius: 0%;
+      }
+    }
+  }
+
+  .multi-lang-another {
+    display: block;
+    margin-top: 5px;
+    margin-left: 345px;
+
+    .language {
+      border: none;
+      background-color: transparent;
+    }
+
+    .flag-icon {
+      .flag {
+        width: 30px;
+        height: 20px;
+      }
+      span {
+        color: #555;
+      }
+    }
+
+    .language-item {
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 3px 3px 3px 0 #e6e6e6;
+      padding-left: 0;
+      width: 125px;
+      top: 64px;
+      display: none;
+
+      .language-bar {
+        list-style: none;
+        padding: 10px 4px;
+        text-align: left;
+        color: #555;
+      }
+    }
+
+    .active {
+      display: block;
+    }
+  }
+
+  .multi-lang-another {
+    .language-bar {
+      .flag-icon {
+        text-decoration: none;
+        color: #555;
+      }
+    }
+  }
+
+  .multi-lang {
+    display: none;
+  }
+
+  .navbar-nav .active-menu {
+    background-color: white;
+    border-radius: 0;
+
+    .nav-link {
+      color: $greenHapo !important;
+    }
+  }
+
+  .navbar-brand .logo-image {
+    max-height: 5vw;
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-link:hover {
+        color: $greenHapo;
+      }
+    }
+  }
+}
+
+@media (max-width: 739px) {
+  .navbar-nav {
+    .nav-item {
+      border-bottom: 1px solid #f1f1f1;
+      &:hover {
+        background: #f8f9fa;
+        border-radius: 0%;
+      }
+    }
+  }
+
+  .multi-lang-another {
+    display: block;
+    margin-top: 5px;
+    margin-left: -12px;
+
+    .language {
+      border: none;
+      background-color: transparent;
+    }
+
+    .flag-icon {
+      .flag {
+        width: 30px;
+        height: 20px;
+      }
+      span {
+        color: #555;
+      }
+    }
+
+    .language-item {
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 3px 3px 3px 0 #e6e6e6;
+      padding-left: 0;
+      width: 125px;
+      top: 62px;
+      display: none;
+
+      .language-bar {
+        list-style: none;
+        padding: 10px 4px;
+        text-align: left;
+        color: #555;
+      }
+    }
+
+    .active {
+      display: block;
+    }
+  }
+
+  .multi-lang-another {
+    .language-bar {
+      .flag-icon {
+        text-decoration: none;
+        color: #555;
+      }
+    }
+  }
+
+  .multi-lang {
+    display: none;
+  }
+
+  .navbar-nav .active-menu {
+    background-color: white;
+    border-radius: 0;
+
+    .nav-link {
+      color: $greenHapo !important;
+    }
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-link:hover {
+        color: $greenHapo;
+      }
+    }
+  }
+
+  .navbar-brand .logo-image {
+    max-height: 9vw;
+  }
+}

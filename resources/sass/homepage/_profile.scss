@@ -1,0 +1,159 @@
+.container-fluid.profile {
+  background-color: #e5e5e5;
+  height: 900px;
+}
+
+.profile-left {
+  margin-top: 55px;
+  max-width: 20%;
+
+  .infor {
+    width: 240px;
+    text-align: center;
+
+    .avatar {
+      border-radius: 50%;
+      width: 240px;
+      height: 240px;
+      position: relative;
+    }
+
+    .name {
+      font-family: $fontHapo;
+      font-weight: 700;
+      font-size: 25px;
+      color: $colorFooter;
+    }
+
+    .email {
+      border-bottom: 2px solid #dcdcdc;
+      font-family: $fontHapo;
+      font-weight: 400;
+      font-size: 18px;
+      color: $colorFooter;
+    }
+
+    .infor-description {
+      text-align: justify;
+      font-family: $fontHapo;
+      font-weight: 400;
+      font-size: 18px;
+      color: $colorFooter;
+    }
+
+    .first-infor {
+      line-height: 30px;
+    }
+  }
+}
+
+.first-infor {
+  .label-upload-image {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+
+    i {
+      font-size: 30px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+  }
+
+  #upload_image {
+    display: none;
+  }
+}
+
+.detail-infor {
+  width: 270px;
+  text-align: left;
+  margin-left: -35px;
+}
+
+.detail-infor-item {
+  .item-card {
+    list-style: none;
+    border-bottom: 2px solid #dcdcdc;
+    height: 33px;
+    margin: 20px 0;
+
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      font-family: $fontHapo;
+      color: $colorFooter;
+    }
+
+    span {
+      margin-right: 20px;
+    }
+
+    .font-birth {
+      color: #f26525;
+    }
+
+    .font-phone {
+      color: #b2d235;
+    }
+
+    .font-address {
+      color: #662e93;
+    }
+  }
+}
+
+.profile-right {
+  margin: 150px 0 0 0;
+  .title-main {
+    border-bottom: 1px solid #b2d235;
+    font-family: $fontHapo;
+    color: $colorFooter;
+    font-weight: bold;
+    font-size: 38px;
+  }
+
+  .line {
+    border-bottom: 1px solid #b2d235;
+    margin-top: -14px;
+  }
+}
+
+.courses-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+
+  .courses-item {
+    margin: 0 15px;
+    text-align: center;
+
+    .photo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.form-profile {
+  width: 910px;
+  line-height: 35px;
+
+  .title-label {
+    max-width: 165px;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: $fontHapo;
+    color: $colorFooter;
+  }
+
+  .about-textarea {
+    resize: both;
+    height: 110px;
+  }
+
+  .btn-update {
+    margin-top: 25px;
+  }
+}

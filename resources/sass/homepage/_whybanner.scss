@@ -1,0 +1,147 @@
+.view-all {
+  margin: auto;
+  text-align: center;
+  width: 366px;
+  font-size: 28px;
+  font-weight: 700;
+
+  a {
+    text-decoration: none;
+    color: #90ab26;
+  }
+}
+
+.why-bg {
+  background-image: url("/images/whybanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 633px;
+  margin-top: 100px;
+}
+
+.why-img {
+  width: 772px;
+}
+
+.why-content {
+  font-family: $fontHapo;
+  font-style: normal;
+  color: white;
+}
+
+.why-title {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 86px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  position: absolute;
+  left: 100px;
+  top: -127px;
+  width: 535px;
+}
+
+.rotate-laptop {
+  display: none;
+}
+
+.why-list {
+  margin-top: 20px;
+  position: absolute;
+  top: -45px;
+  left: 85px;
+  width: 495px;
+
+  .why-item {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    margin-bottom: 25px;
+
+    .why-text {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .why-title {
+    font-size: 60px;
+    transform: translateX(180px);
+    margin: 186px 0 0 -113px;
+  }
+
+  .rotate-laptop {
+    display: none;
+  }
+
+  .why-list {
+    left: 45px;
+    width: 393px;
+    position: absolute;
+    top: 226px;
+
+    .why-item {
+      font-size: 17px;
+      margin-bottom: 15px;
+
+      .why-text {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .why-img {
+    width: 327px;
+    height: 260px;
+    position: absolute;
+    left: -5px;
+    margin-top: 235px;
+  }
+}
+
+@media (max-width: 739px) {
+  .why-title {
+    font-size: 46px;
+    max-width: 228px;
+    line-height: 40px;
+    font-weight: 700;
+    transform: translate(55%, 50%);
+    text-align: left;
+    position: absolute;
+    top: 4px;
+    left: -7px;
+    font-family: $fontHapo;
+  }
+
+  .rotate-laptop {
+    display: block;
+    position: absolute;
+    width: 226.43px;
+    height: 226.43px;
+    top: -120px;
+    left: 9px;
+    transform: rotate(7.15deg);
+  }
+
+  .why-list {
+    margin-top: 195px;
+    width: 378px;
+    position: absolute;
+    left: 15px;
+
+    .why-item {
+      font-size: 15px;
+      line-height: 14px;
+    }
+  }
+
+  .why-img {
+    width: 360px;
+    height: 218px;
+    margin: 370px 0 0 6px;
+    text-align: center;
+  }
+}

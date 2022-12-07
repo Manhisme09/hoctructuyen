@@ -1,0 +1,122 @@
+.register-location {
+  padding: 70px 0 130px 0;
+}
+
+.container-fluid.register {
+  background-color: #e5e5e5;
+}
+
+.register-title {
+  font-family: $fontHapo;
+  border: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: $greenHapo;
+  background-color: white;
+  margin-top: 16px;
+}
+
+.card.register-item {
+  width: 525px;
+  margin: auto;
+}
+
+.register-label {
+  font-family: $fontHapo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #505353;
+}
+
+.register-input {
+  background-color: rgba($color: #cecece, $alpha: 0.16);
+  border: 1px solid #cecece;
+  height: 42px;
+}
+
+.btn-submit,
+.btn-register {
+  background-color: $greenHapo;
+  color: white;
+  padding: 8px 60px;
+  box-shadow: inset 0px 1.5px 2px #6f8710;
+  border-radius: 22px;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.forgot-password {
+  font-family: $fontHapo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #a6cb16;
+  float: right;
+
+  &:hover {
+    color: $greenHapo;
+  }
+}
+
+.sign-with {
+  position: relative;
+  border-bottom: 1px solid #808080;
+  margin-top: 58px;
+}
+
+.title-google {
+  font-family: $fontHapo;
+  position: absolute;
+  top: -17px;
+  background: white;
+  padding: 0 21px;
+  left: 35%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #505353;
+}
+
+.account-google {
+  font-family: $fontHapo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  background: white;
+  border: 1px solid #dc4e41;
+  border-radius: 22px;
+  padding: 13px 150px;
+
+  a {
+    color: #dc4e41;
+  }
+}
+
+.model-register {
+  margin-top: 18px;
+}
+
+.title-register {
+  left: 25%;
+}
+
+.btn-register {
+  padding: 13px 115px;
+  font-family: $fontHapo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: white;
+}

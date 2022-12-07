@@ -1,0 +1,163 @@
+.footer {
+  background-color: $colorFooter;
+  color: white;
+  height: 260px;
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .category {
+    margin: 68px 0 0 -35px;
+
+    a {
+      color: white;
+    }
+  }
+}
+
+.contact {
+  margin-left: 70px;
+
+  .contact-list {
+    display: flex;
+    margin-top: 124px;
+
+    .contact-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      color: $colorFooter;
+      border-radius: 50%;
+      font-size: 24px;
+      margin-left: 34px;
+    }
+  }
+}
+
+.footer-header {
+  margin: auto;
+  text-align: center;
+
+  .footer-logo {
+    width: 292px;
+    margin: -10px 0 0 -250px;
+  }
+
+  .footer-slogan {
+    margin-left: -85px;
+    width: 250px;
+    text-align: left;
+  }
+}
+
+.copyright {
+  background-color: #454545;
+  color: white;
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+}
+
+.content-mobile {
+  display: none;
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .footer {
+    height: 190px;
+
+    .footer-logo {
+      width: 186px;
+      margin: -50px 0 0 -115px;
+    }
+
+    .footer-slogan {
+      font-family: $fontHapo;
+      font-size: 16px;
+      margin-left: -37px;
+    }
+
+    .category {
+      margin-top: 23px;
+      font-size: 15px;
+
+      p {
+        width: 145px;
+      }
+    }
+  }
+
+  .contact {
+    margin-left: 0;
+
+    .contact-list {
+      margin: 33px 20px 0 0;
+
+      .contact-item {
+        width: 40px;
+        height: 35px;
+      }
+    }
+  }
+
+  .content-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 739px) {
+  .footer {
+    height: 300px;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content-mobile {
+    display: block;
+
+    .footer-logo {
+      width: 157px;
+      margin-left: 10px;
+    }
+
+    .footer-slogan {
+      font-size: 13px;
+      width: 200px;
+      margin-left: 15px;
+    }
+
+    .category {
+      margin-top: 30px;
+      text-align: left;
+      padding-left: 82px;
+
+      p {
+        width: 158px;
+      }
+    }
+
+    .contact {
+      margin-left: 0;
+    }
+
+    .contact-list {
+      display: flex;
+      flex-wrap: nowrap;
+      margin-top: 0;
+
+      .contact-item {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        margin-left: 18px;
+      }
+    }
+  }
+}
