@@ -39,7 +39,9 @@ class AdminController extends Controller
      */
     public function adminLogin(Request $request)
     {
-        $user = DB::table('users')->where('email','=', $request['email'])->where('role','=', '1')->get();
+        $user = DB::table('users')
+        ->where('email', '=', $request['email'])
+        ->where('role', '=', '1')->get();
         if (!empty($user[0]) && Hash::check($request['password'], $user[0]->password)) {
             dd('Đăng nhập thành công');
         }

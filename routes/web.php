@@ -41,10 +41,5 @@ Route::group(['middleware' => 'auth'], function () {
 });
 Route::get('language/{locale}', [LanguageController::class, 'index'])->name('language.index');
 Route::get('/ajax-search-product', [CourseController::class, 'ajaxSearch'])->name('ajax-search-product');
-
- //Route::get('Admin', [AdminController::class, 'index']);
-//Route::get('/admin', 'AdminController@index')->name('admin');
 Route::post('Admin', [AdminController::class, 'adminLogin'])->name('adminLogin');
-//Route::post('Admin','AdminController@adminLogin')->name('adminLogin');
 Route::resource('Admin', AdminController::class)->only(['index']);
-
